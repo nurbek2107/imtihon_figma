@@ -12,7 +12,93 @@
 .navbar {
     display: none;
 }
+.nav-item{
+    a{
+        color: rgba(34, 32, 46, 1);
+        font-size: 24px;
+        font-family: 'Satoshi-Regular';
+        font-size: 20px;
+    }
+}
+.nav_card{
+    position: absolute;
+    top: -640px;
+    left:730px;
+    width: 630px;
+    height: 444px;
+    .p1{
+        font-family: 'ClashDisplay-Regular';
+        padding: 48px 0px 0px 56px;
+        font-size: 32px;
+    }
+    .p2{
+        font-family: 'ClashDisplay-Regular';
+        padding: 0px 0px 0px 56px;
+        font-size: 18px;
+    }
+    .card_button{
+        font-family: 'ClashDisplay-Regular';
+        padding: 120px 0px 0px 56px;
+        font-size: 16px;
+        a{
+            background-color:rgba(249, 249, 249, 1);
+            padding: 16px 32px 16px 32px;
+            transition: all 1s ease;
+            color: rgba(42, 37, 75, 1);
+        }
+        a:hover{
+            background-color:rgb(227, 227, 227);
+        }
+    }
+}
+.nav_img{
+    img{
+        width: 100%;
+        height: 100cqmin;
+    }
+}
+@media screen and (max-width: 1440px){
+    .nav_card{
+
+        left:630px;
+    }
+}
+@media screen and (max-width: 1300px){
+    .nav_card{
+        left:530px;
+    }
+}
+@media screen and (max-width: 1200px){
+    .nav_card{
+        left:430px;
+    }
+}
+@media screen and (max-width: 1100px){
+    .nav_card{
+        left:330px;
+    }
+}
+@media screen and (max-width: 1000px){
+    .nav_card{
+        left:230px;
+    }
+}
+@media screen and (max-width: 900px){
+    .nav_card{
+        left:130px;
+    }
+}
+@media screen and (max-width: 790px){
+    .nav_card{
+        left:30px;
+    }
+}
 @media screen and (max-width: 730px){
+    .nav_card{
+        position: absolute;
+        width: 630px;
+        height: 444px;
+    }
     .nav_bottom{
         a{
             display: none;
