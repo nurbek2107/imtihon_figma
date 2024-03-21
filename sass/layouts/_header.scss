@@ -1,0 +1,24 @@
+.nav_bottom{
+    gap: 44px;
+    a{
+        font-family: 'Satoshi-Regular';
+        color:rgba(114, 110, 141, 1);
+        transition: all .5s ease;
+    }
+    a:hover{
+        color:rgba(34, 32, 46, 1);
+    }
+}
+.navbar {
+    display: none;
+}
+@media screen and (max-width: 730px){
+    .nav_bottom{
+        a{
+            display: none;
+        }
+    }
+    .navbar {
+        display:block;
+    }
+}
