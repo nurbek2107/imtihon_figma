@@ -431,12 +431,6 @@ template {
   }
 }
 @media screen and (max-width: 730px) {
-  hr {
-    display: none;
-  }
-  .nav_card {
-    display: none;
-  }
   .nav_bottom a {
     display: none;
   }
@@ -705,6 +699,67 @@ template {
   background-color: rgba(249, 249, 249, 0.336);
 }
 
+.card_4 {
+  margin-top: 60px;
+}
+.card_4 .input-group {
+  margin-top: 50px;
+}
+.card_4 img {
+  width: 100%;
+}
+.card_4 .p1 {
+  font-family: "ClashDisplay-Regular";
+  font-size: 32px;
+  color: white;
+}
+.card_4 .p2 {
+  font-family: "Satoshi-Regular";
+  font-size: 18px;
+  color: white;
+}
+.card_4 .text_1 {
+  gap: 30px;
+}
+.card_4 .text_1 p {
+  display: flex;
+  font-family: "Satoshi-Regular";
+  font-size: 16px;
+  color: white;
+  gap: 20px;
+}
+.card_4 .text_1 p img {
+  width: 24px;
+  margin-top: 0px;
+}
+
+.block {
+  margin-top: -390px;
+}
+
+.input-group {
+  width: 472px;
+  margin: 0px auto;
+}
+.input-group .form-control {
+  border-radius: 0px;
+}
+.input-group button {
+  border-radius: 0px;
+  background-color: rgb(42, 37, 75);
+  padding: 16px 32px 16px 32px;
+  color: white;
+  border: 2px solid rgba(255, 0, 0, 0);
+}
+.input-group button:hover {
+  background-color: rgba(42, 37, 75, 0.936);
+  border: 2px solid rgba(255, 0, 0, 0);
+}
+
+.form-control {
+  border-radius: none;
+}
+
 @media screen and (max-width: 1350px) {
   .nav_card1 {
     width: 634px;
@@ -732,6 +787,22 @@ template {
   }
 }
 @media screen and (max-width: 1110px) {
+  .card_4 img {
+    width: 100%;
+  }
+  .card_4 .p1 {
+    font-family: "ClashDisplay-Regular";
+    font-size: 28px;
+    color: white;
+  }
+  .card_4 .p2 {
+    font-family: "Satoshi-Regular";
+    font-size: 16px;
+    color: white;
+  }
+  .block {
+    margin-top: -350px;
+  }
   .nav_card1 {
     width: 450px;
     height: 300px;
@@ -753,6 +824,27 @@ template {
   }
 }
 @media screen and (max-width: 970px) {
+  .card_4 .input-group {
+    margin-top: 20px;
+  }
+  .card_4 img {
+    width: 100%;
+  }
+  .card_4 .p1 {
+    font-size: 28px;
+  }
+  .card_4 .p2 {
+    font-size: 16px;
+  }
+  .block {
+    margin-top: -400px;
+  }
+  .input-group {
+    width: 402px;
+  }
+  .input-group button {
+    padding: 10px 26px 10px 26px;
+  }
   .cards3 {
     display: flex;
     flex-direction: column;
@@ -778,7 +870,17 @@ template {
     width: 100%;
   }
 }
+@media screen and (max-width: 792px) {
+  .card_4 .text_1 {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+  }
+}
 @media screen and (max-width: 520px) {
+  .block {
+    margin-top: -450px;
+  }
   .cards2 {
     margin-top: 100px;
   }
@@ -831,6 +933,13 @@ template {
   .cards1 p {
     font-family: "Satoshi-Regular";
     font-size: 14px;
+  }
+  .input-group {
+    width: 302px;
+    margin: 0px auto;
+  }
+  .block {
+    margin-top: -480px;
   }
 }
 .container {

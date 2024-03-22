@@ -35,6 +35,7 @@
 
 .cards2 {
     margin-top: 150px;
+
     img {
         padding-left: 20px;
     }
@@ -120,7 +121,78 @@
     }
 }
 
+.card_4 {
+    margin-top: 60px;
+    .input-group {
+        margin-top: 50px;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    .p1 {
+        font-family: 'ClashDisplay-Regular';
+        font-size: 32px;
+        color: white;
+    }
+
+    .p2 {
+        font-family: 'Satoshi-Regular';
+        font-size: 18px;
+        color: white;
+    }
+
+    .text_1 {
+        gap: 30px;
+        p {
+            display: flex;
+            font-family: 'Satoshi-Regular';
+            font-size: 16px;
+            color: white;
+            gap: 20px;
+
+            img {
+                width: 24px;
+                margin-top: 0px;
+
+            }
+        }
+    }
+}
+
+.block {
+    margin-top: -390px;
+}
+
+.input-group {
+    width: 472px;
+    margin: 0px auto;
+
+    .form-control {
+        border-radius: 0px;
+    }
+
+    button {
+        border-radius: 0px;
+        background-color: rgba(42, 37, 75, 1);
+        padding: 16px 32px 16px 32px;
+        color: white;
+        border: 2px solid rgba(255, 0, 0, 0);
+    }
+
+    button:hover {
+        background-color: rgba(42, 37, 75, 0.936);
+        border: 2px solid rgba(255, 0, 0, 0);
+    }
+}
+
+.form-control {
+    border-radius: none;
+}
+
 @media screen and (max-width: 1350px) {
+
     .nav_card1 {
         width: 634px;
         height: 380px;
@@ -162,6 +234,28 @@
 }
 
 @media screen and (max-width: 1110px) {
+    .card_4 {
+        img {
+            width: 100%;
+        }
+
+        .p1 {
+            font-family: 'ClashDisplay-Regular';
+            font-size: 28px;
+            color: white;
+        }
+
+        .p2 {
+            font-family: 'Satoshi-Regular';
+            font-size: 16px;
+            color: white;
+        }
+    }
+
+    .block {
+        margin-top: -350px;
+    }
+
     .nav_card1 {
         width: 450px;
         height: 300px;
@@ -193,12 +287,43 @@
 }
 
 @media screen and (max-width: 970px) {
-    .cards3{
+    .card_4 {
+        .input-group {
+            margin-top: 20px;
+        }
+
+        img {
+            width: 100%;
+        }
+
+        .p1 {
+            font-size: 28px;
+        }
+
+        .p2 {
+            font-size: 16px;
+        }
+    }
+
+    .block {
+        margin-top: -400px;
+    }
+
+    .input-group {
+        width: 402px;
+
+        button {
+            padding: 10px 26px 10px 26px;
+        }
+    }
+
+    .cards3 {
         display: flex;
         flex-direction: column;
-       gap: 30px;
+        gap: 30px;
 
     }
+
     .nav_card1 {
         width: 100%;
         height: 300px;
@@ -227,12 +352,27 @@
 
     }
 }
+
+@media screen and (max-width: 792px) {
+    .card_4 {
+        .text_1{
+            display: flex;
+            flex-direction: column;
+            gap: 0px;
+        }
+    }
+}
+
 @media screen and (max-width: 520px) {
+    .block {
+        margin-top: -450px;
+    }
     .cards2 {
         margin-top: 100px;
 
         .card {
             border: none;
+
             img {
                 margin-left: 15px;
             }
@@ -257,12 +397,13 @@
             padding: 18px 0px 0px 36px;
             font-size: 22px;
         }
-    
+
         .p2 {
             font-family: 'ClashDisplay-Regular';
             padding: 0px 0px 0px 36px;
             font-size: 14px;
         }
+
         .card_button {
             font-family: 'ClashDisplay-Regular';
             padding: 10px 0px 0px 36px;
@@ -270,6 +411,7 @@
         }
     }
 }
+
 @media screen and (max-width: 420px) {
     .cards1 {
         margin-top: 100px;
@@ -293,4 +435,11 @@
             font-size: 14px;
         }
     }
-}
+    .input-group {
+        width: 302px;
+        margin: 0px auto;
+    }
+    .block {
+        margin-top: -480px;
+    }
+}    
