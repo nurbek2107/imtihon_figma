@@ -94,6 +94,9 @@
     }
 }
 @media screen and (max-width: 730px){
+    hr{
+        display: none;
+    }
     .nav_card{
         display: none;
     }
@@ -107,6 +110,9 @@
     }
 }
 @media screen and (max-width: 690px){
+    hr{
+        display: none;
+    }
     .nav_card{
         width: 90%;
         height: 344px;
@@ -127,6 +133,9 @@
  
 }
 @media screen and (max-width: 650px){
+    hr{
+        display: none;
+    }
     .nav_card{
         top: -550px;
         width: 90%;
@@ -148,6 +157,9 @@
  
 }
 @media screen and (max-width: 600px){
+    hr{
+        display: none;
+    }
     .nav_card{
         margin-top: -350px;
         background-color:rgba(255, 255, 255, 0);
@@ -175,6 +187,9 @@
     }
 }
 @media screen and (max-width: 520px){
+    hr{
+        display: none;
+    }
     .nav_card{
         margin-top: -200px;
        background-color:rgba(255, 255, 255, 0);
@@ -201,6 +216,9 @@
     }
 }
 @media screen and (max-width: 460px){
+    hr{
+        display: none;
+    }
     .nav_card{
         margin-top: -150px;
         width: 80%;
@@ -226,6 +244,9 @@
     }
 }
 @media screen and (max-width: 420px){
+    hr{
+        display: none;
+    }
     .nav_card{
         margin-top: -60px;
         width: 80%;

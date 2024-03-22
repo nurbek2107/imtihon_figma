@@ -1,0 +1,296 @@
+.cards_text {
+    text-align: center;
+
+    p {
+        font-family: 'ClashDisplay-Regular';
+        font-size: 24px;
+        line-height: 33px;
+    }
+}
+
+.card-body {
+    h5 {
+        font-family: 'ClashDisplay-Regular';
+        font-size: 20px;
+        color: rgba(42, 37, 75, 1);
+    }
+
+    p {
+        font-family: 'Satoshi-Regular';
+        font-size: 16px;
+    }
+}
+
+.cards {
+    .card {
+        border: none;
+        background-color: rgba(249, 249, 249, 0.797);
+        padding: 30px;
+
+        img {
+            margin-left: 15px;
+        }
+    }
+}
+
+.cards2 {
+    margin-top: 150px;
+    img {
+        padding-left: 20px;
+    }
+
+}
+
+.cards1 {
+    margin-top: 100px;
+
+    .card {
+        border: none;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    h5 {
+        font-family: 'ClashDisplay-Regular';
+        font-size: 28px;
+        color: rgba(42, 37, 75, 1);
+    }
+
+    p {
+        font-family: 'Satoshi-Regular';
+        font-size: 18px;
+    }
+}
+
+.card_button {
+    font-family: 'ClashDisplay-Regular';
+    padding: 120px 0px 0px 56px;
+    font-size: 16px;
+
+    a {
+        background-color: rgba(249, 249, 249, 1);
+        padding: 16px 32px 16px 32px;
+        transition: all 1s ease;
+        color: rgba(42, 37, 75, 1);
+    }
+
+    a:hover {
+        background-color: rgb(227, 227, 227);
+    }
+}
+
+.nav_card1 {
+    background-color: rgba(42, 37, 75, 1);
+    color: white;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 634px;
+    height: 478px;
+
+    .p1 {
+        font-family: 'ClashDisplay-Regular';
+        padding: 48px 0px 0px 56px;
+        font-size: 32px;
+    }
+
+    .p2 {
+        font-family: 'ClashDisplay-Regular';
+        padding: 0px 0px 0px 56px;
+        font-size: 18px;
+    }
+
+    .card_button {
+        font-family: 'ClashDisplay-Regular';
+        padding: 180px 0px 0px 56px;
+        font-size: 16px;
+
+        a {
+            background-color: rgba(249, 249, 249, 0.15);
+            padding: 16px 32px 16px 32px;
+            transition: all 1s ease;
+            color: rgb(255, 255, 255);
+        }
+
+        a:hover {
+            background-color: rgba(249, 249, 249, 0.336);
+        }
+    }
+}
+
+@media screen and (max-width: 1350px) {
+    .nav_card1 {
+        width: 634px;
+        height: 380px;
+
+        .card_button {
+            padding: 90px 0px 0px 56px;
+
+        }
+    }
+
+    .cards2 {
+        img {
+            padding-left: 30px;
+            width: 530px;
+        }
+
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    .nav_card1 {
+        width: 600px;
+        height: 300px;
+
+        .card_button {
+            padding: 70px 0px 0px 56px;
+
+        }
+    }
+
+    .cards2 {
+
+        img {
+            padding-left: 30px;
+            width: 430px;
+        }
+
+    }
+}
+
+@media screen and (max-width: 1110px) {
+    .nav_card1 {
+        width: 450px;
+        height: 300px;
+
+        .card_button {
+            padding: 60px 0px 0px 56px;
+
+        }
+
+        .p1 {
+            padding: 48px 0px 0px 56px;
+            font-size: 26px;
+        }
+
+        .p2 {
+            padding: 0px 0px 0px 56px;
+            font-size: 14px;
+        }
+    }
+
+    .cards2 {
+
+        img {
+            padding-left: 30px;
+            width: 430px;
+        }
+
+    }
+}
+
+@media screen and (max-width: 970px) {
+    .cards3{
+        display: flex;
+        flex-direction: column;
+       gap: 30px;
+
+    }
+    .nav_card1 {
+        width: 100%;
+        height: 300px;
+
+        .card_button {
+            padding: 60px 0px 0px 56px;
+        }
+
+        .p1 {
+            padding: 48px 0px 0px 56px;
+            font-size: 26px;
+        }
+
+        .p2 {
+            padding: 0px 0px 0px 56px;
+            font-size: 14px;
+        }
+    }
+
+    .cards2 {
+
+        img {
+            padding-left: 0px;
+            width: 100%;
+        }
+
+    }
+}
+@media screen and (max-width: 520px) {
+    .cards2 {
+        margin-top: 100px;
+
+        .card {
+            border: none;
+            img {
+                margin-left: 15px;
+            }
+        }
+
+        h5 {
+            padding: 8px 20px 0px 46px;
+            font-size: 16px;
+            color: rgba(42, 37, 75, 1);
+        }
+
+        p {
+            padding: 8px 20px 0px 46px;
+            font-size: 14px;
+        }
+    }
+
+
+    .nav_card1 {
+        .p1 {
+            font-family: 'ClashDisplay-Regular';
+            padding: 18px 0px 0px 36px;
+            font-size: 22px;
+        }
+    
+        .p2 {
+            font-family: 'ClashDisplay-Regular';
+            padding: 0px 0px 0px 36px;
+            font-size: 14px;
+        }
+        .card_button {
+            font-family: 'ClashDisplay-Regular';
+            padding: 10px 0px 0px 36px;
+            font-size: 16px;
+        }
+    }
+}
+@media screen and (max-width: 420px) {
+    .cards1 {
+        margin-top: 100px;
+
+        .card {
+            border: none;
+
+            img {
+                margin-left: 15px;
+            }
+        }
+
+        h5 {
+            font-family: 'ClashDisplay-Regular';
+            font-size: 16px;
+            color: rgba(42, 37, 75, 1);
+        }
+
+        p {
+            font-family: 'Satoshi-Regular';
+            font-size: 14px;
+        }
+    }
+}
