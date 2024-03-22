@@ -1,0 +1,123 @@
+footer {
+    background-color: rgba(42, 37, 75, 1);
+
+    .footer_top {
+        margin-top: 20px;
+
+        a {
+            font-family: 'Satoshi-Regular';
+            color: white;
+            font-size: 14px;
+            transition: all .5s ease;
+        }
+
+        a:hover {
+            color: rgba(255, 255, 255, 0.681);
+        }
+
+        p {
+            font-family: 'ClashDisplay-Regular';
+            color: white;
+            font-size: 16px;
+        }
+
+        .input-group {
+            width: 472px;
+            margin: 0px auto;
+
+            .form-control {
+                border-radius: 0px;
+                background-color: rgba(255, 255, 255, 0.15);
+            }
+
+            .form-control::placeholder {
+                color: aliceblue;
+            }
+
+            input {
+                color: aliceblue;
+            }
+
+            button {
+                border-radius: 0px;
+                background-color: rgb(255, 255, 255);
+                padding: 16px 32px 16px 32px;
+                color: rgb(0, 0, 0);
+                border: 2px solid rgba(255, 0, 0, 0);
+            }
+
+            button:hover {
+                background-color: rgba(165, 162, 182, 0.936);
+                border: 2px solid rgba(255, 0, 0, 0);
+                color: rgb(255, 255, 255);
+            }
+        }
+    }
+}
+
+.footer_bottom {
+    .footer_card {
+      .left {
+            p{
+                font-family: 'Satoshi-Regular';
+                color: rgb(255, 255, 255);
+            }
+        }
+
+        .right {
+            a {
+                transition: all .5s ease;
+            }
+
+            a:hover {
+                filter: invert(0.5) sepia(1);
+            }
+        }
+    }
+}
+
+
+
+@media screen and (max-width: 970px) {
+    footer {
+        .footer_top {
+            margin-top: 30px;
+        }
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .footer_top {
+        .col {
+            .input-group {
+                width: 372px;
+                margin: 0px auto;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 450px) {
+.footer_bottom {
+    .footer_card {
+        .right {
+            a {
+            display: none;
+                transition: all .5s ease;
+            }
+
+            a:hover {
+                filter: invert(0.5) sepia(1);
+            }
+        }
+    }
+}
+    .footer_top {
+        .col {
+            .input-group {
+                width: 300px;
+                margin: 0px auto;
+            }
+        }
+    }
+}

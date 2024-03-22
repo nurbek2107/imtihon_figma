@@ -942,6 +942,91 @@ template {
     margin-top: -480px;
   }
 }
+footer {
+  background-color: rgb(42, 37, 75);
+}
+footer .footer_top {
+  margin-top: 20px;
+}
+footer .footer_top a {
+  font-family: "Satoshi-Regular";
+  color: white;
+  font-size: 14px;
+  transition: all 0.5s ease;
+}
+footer .footer_top a:hover {
+  color: rgba(255, 255, 255, 0.681);
+}
+footer .footer_top p {
+  font-family: "ClashDisplay-Regular";
+  color: white;
+  font-size: 16px;
+}
+footer .footer_top .input-group {
+  width: 472px;
+  margin: 0px auto;
+}
+footer .footer_top .input-group .form-control {
+  border-radius: 0px;
+  background-color: rgba(255, 255, 255, 0.15);
+}
+footer .footer_top .input-group .form-control::-moz-placeholder {
+  color: aliceblue;
+}
+footer .footer_top .input-group .form-control::placeholder {
+  color: aliceblue;
+}
+footer .footer_top .input-group input {
+  color: aliceblue;
+}
+footer .footer_top .input-group button {
+  border-radius: 0px;
+  background-color: rgb(255, 255, 255);
+  padding: 16px 32px 16px 32px;
+  color: rgb(0, 0, 0);
+  border: 2px solid rgba(255, 0, 0, 0);
+}
+footer .footer_top .input-group button:hover {
+  background-color: rgba(165, 162, 182, 0.936);
+  border: 2px solid rgba(255, 0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+
+.footer_bottom .footer_card .left p {
+  font-family: "Satoshi-Regular";
+  color: rgb(255, 255, 255);
+}
+.footer_bottom .footer_card .right a {
+  transition: all 0.5s ease;
+}
+.footer_bottom .footer_card .right a:hover {
+  filter: invert(0.5) sepia(1);
+}
+
+@media screen and (max-width: 970px) {
+  footer .footer_top {
+    margin-top: 30px;
+  }
+}
+@media screen and (max-width: 580px) {
+  .footer_top .col .input-group {
+    width: 372px;
+    margin: 0px auto;
+  }
+}
+@media screen and (max-width: 450px) {
+  .footer_bottom .footer_card .right a {
+    display: none;
+    transition: all 0.5s ease;
+  }
+  .footer_bottom .footer_card .right a:hover {
+    filter: invert(0.5) sepia(1);
+  }
+  .footer_top .col .input-group {
+    width: 300px;
+    margin: 0px auto;
+  }
+}
 .container {
   max-width: 1440px;
   margin: 0px auto;
